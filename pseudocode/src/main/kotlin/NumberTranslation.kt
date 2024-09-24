@@ -16,7 +16,6 @@ fun numberTranslation(num: Int) {
 fun translate(num: Int): String {
     val hundreds = getHundreds(num)
     val tens = getTens(num)
-    println(num % 100)
     return numMapping(num / 1000) + " Ribu " + hundreds + tens + numMapping(num % 100)
 }
 
