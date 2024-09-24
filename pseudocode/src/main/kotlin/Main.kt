@@ -1,6 +1,7 @@
-fun main(){
-//progressionNumber()
-//fibonacci()
-//generateLeftTree(20)
-    numberTranslation(8694)
+fun main() {
+    progressionNumber()
+    fibonacci()
+    println()
+    generateLeftTree(20)
+    numberTranslation(8500)
 }
