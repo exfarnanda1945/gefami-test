@@ -6,7 +6,7 @@ fun numberTranslation(num: Int) {
     }
 
     if (num > 9999) {
-        println("Angka harus lebih kecil dari 9999")
+        println("Angka harus lebih kecil dari 10000")
         return
     }
 
