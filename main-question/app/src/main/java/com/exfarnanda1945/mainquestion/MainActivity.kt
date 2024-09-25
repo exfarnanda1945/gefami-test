@@ -17,10 +17,10 @@ class MainActivity : ComponentActivity() {
         setContent {
             MainQuestionTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-//                    ArrayObjectScreen(modifier = Modifier.padding(innerPadding))
+                    ArrayObjectScreen(modifier = Modifier.padding(innerPadding))
 //                    HttpRequestScreen(modifier = Modifier.padding(innerPadding))
 //                HashDateScreen(modifier = Modifier.padding(innerPadding))
-                    LoginScreen(modifier = Modifier.padding(innerPadding))
+//                    LoginScreen(modifier = Modifier.padding(innerPadding))
                 }
             }
         }
